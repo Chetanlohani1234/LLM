@@ -4,200 +4,128 @@ const UseCasesDetails = () => {
   return (
 <div className='inner-page'>
   {/* rts header area start */}
-  <header className="header-one header--sticky">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="header-main-wrapper">
-            <a href="index.html" className="logo">
-              <img src="assets/images/logo/01.svg" alt="logo" />
-            </a>
-            {/* nav */}
-            <div className="nav-area-main d-xl-block d-lg-block d-md-none d-sm-none d-none">
-              <nav>
-                <ul>
-                  <li className="has-dropdown">
-                    <a className="links-main" href="#">
-                      Home
-                    </a>
-                    <ul className="submenu">
-                        {/* <li><a href="/index-page-1">Content Writing 01</a></li> */}
-                        <li><a href='/IndexOne'>Content Writing 01</a></li>
-                        <li><a href="/">Content Writing 02</a></li>
-                        <li><a href="/IndexThree">Content Writing 03</a></li>
-                        <li><a href="/IndexFour">Ai Chat Bot</a></li>
-                        <li><a href="/IndexFive">Voice Generator</a></li>
-                        <li><a href="/">Image Generator <span>New</span></a></li>
-                        <li><a href="/">Photo Stock <span>New</span></a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a className="links-main" href="/UseCase">
-                      Use Cases
-                    </a>
-                  </li>
-                  <li className="has-dropdown mega-menu">
-                    <a className="links-main" href="#">
-                      Pages
-                    </a>
-                    <div className="rts-mega-menu">
+  <header className="header-area header-two">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-12">
+                        {/* <!-- header top start --> */}
+                        <div className="header-top-two">
+                            <div className="social-area">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i className="fa-brands fa-behance"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i className="fa-brands fa-discord"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="right-area">
+                                <ul>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="/Contact">Contact</a></li>
+                                    <li><a href="#">En(US)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        {/* <!-- header top end --> */}
+                        <div className="header-main-two header--sticky">
+                            {/* <a href="index.html">
+                                <img src="assets/images/logo/03.svg" alt="logo"/>
+                            </a> */}
+                            <h4>Polymatric</h4>
+                            {/* <!-- nav --> */}
+                            <div className="nav-area-main d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                                <nav>
+                                    <ul>
+                                        <li className="has-dropdown mega-menu">
+                                            <a className="links-main" href="#">Solutions</a>
+                                            <div className="rts-mega-menu">
                                                 <div className="wrapper">
                                                     <div className="row g-0">
                                                         <div className="col-lg-3">
+                                                          <p>PRODUCTS</p>  
                                                             <ul className="mega-menu-item">
                                                                 <li>
-                                                                    <a href="/AboutOpenUp">
-                                                                        <img src="assets/images/mega-menu/01.svg" alt="icon"/>
+                                                                    <a href="/UseCasesDetails2">
+                                                                        {/* <img src="assets/images/mega-menu/01.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>About OpenUp</p>
-                                                                            <span>Get know about openup </span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/UseCase">
-                                                                        <img src="assets/images/mega-menu/02.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Use Cases</p>
-                                                                            <span>provide detailed explan</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Pricing">
-                                                                        <img src="assets/images/mega-menu/03.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Pricing</p>
-                                                                            <span>Openup provide pro price</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Login">
-                                                                        <img src="assets/images/mega-menu/04.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Login</p>
-                                                                            <span>Create content by ou</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div className="col-lg-3">
-                                                            <ul className="mega-menu-item">
-                                                                <li>
-                                                                    <a href="/Blog">
-                                                                        <img src="assets/images/mega-menu/05.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Blog</p>
-                                                                            <span>Read openup artical</span>
+                                                                            <p>ChatBot Builder</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
                                                                     <a href="/UseCasesDetails">
-                                                                        <img src="assets/images/mega-menu/06.svg" alt="icon"/>
+                                                                        {/* <img src="assets/images/mega-menu/02.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Use Cases Details</p>
-                                                                            <span>provide detailed explan</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Pricing2">
-                                                                        <img src="assets/images/mega-menu/07.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Pricing 2</p>
-                                                                            <span>Openup provide pro price</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Register">
-                                                                        <img src="assets/images/mega-menu/08.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Register</p>
-                                                                            <span>Make your account</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div className="col-lg-3">
-                                                            <ul className="mega-menu-item">
-                                                                <li>
-                                                                    <a href="/BlogDetails">
-                                                                        <img src="assets/images/mega-menu/09.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Blog Details</p>
-                                                                            <span>Read openup artical</span>
+                                                                            <p>Generative AI Chatbot</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
                                                                     <a href="/UseCases2">
-                                                                        <img src="assets/images/mega-menu/10.svg" alt="icon"/>
+                                                                        {/* <img src="assets/images/mega-menu/03.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Use Cases 2</p>
-                                                                            <span>provide detailed explan</span>
+                                                                            <p>Live Chat</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/Pricing3">
-                                                                        <img src="assets/images/mega-menu/11.svg" alt="icon"/>
+                                                                    <a href="/useCase">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Pricing 3</p>
-                                                                            <span>Openup provide pro price</span>
+                                                                            <p>Dialogflow Integration</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/Reset">
-                                                                        <img src="assets/images/mega-menu/12.svg" alt="icon"/>
+                                                                    <a href="/FAQ">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Reset</p>
-                                                                            <span>Rest your possword</span>
+                                                                            <p>FAQ ChatBot</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="col-lg-3">
+                                                            <p>INDUSTRIES</p>
                                                             <ul className="mega-menu-item">
                                                                 <li>
-                                                                    <a href="/Contact">
-                                                                        <img src="assets/images/mega-menu/13.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/05.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Contact</p>
-                                                                            <span>Contact with openup</span>
+                                                                            <p>eCommerce</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/UseCasesDetails2">
-                                                                        <img src="assets/images/mega-menu/14.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/06.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Use Cases Details 2</p>
-                                                                            <span>provide detailed explan</span>
+                                                                            <p>Healthcare</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/FAQ">
-                                                                        <img src="assets/images/mega-menu/15.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/07.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>FAQ</p>
-                                                                            <span>Do you know openup</span>
+                                                                            <p>Education</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="404.html">
-                                                                        <img src="assets/images/mega-menu/16.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/08.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Error</p>
-                                                                            <span>Back to home</span>
+                                                                            <p>Banking</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
@@ -205,111 +133,213 @@ const UseCasesDetails = () => {
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
+
+                                        </li>
+                                        <li className="has-dropdown mega-menu">
+                                            <a className="links-main" href="#">Integrations</a>
+                                            <div className="rts-mega-menu">
+                                                <div className="wrapper">
+                                                    <div className="row g-0">
+                                                        <div className="col-lg-3">
+                                                          <p>ALL INTEGRATIONS</p>  
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/01.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Omnichannel messaging</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/02.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>eCommerce sites</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/03.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Chatbot Builder</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Zendesk ChatBot</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Website and CMS</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div className="col-lg-3">
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/05.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Mobile Apps</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/06.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>CRMs</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/07.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Automation and Analytics</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </li>
+                                        <li className="has-dropdown mega-menu">
+                                            <a className="links-main" href="#">Resources</a>
+                                            <div className="rts-mega-menu">
+                                                <div className="wrapper">
+                                                    <div className="row g-0">
+                                                        <div className="col-lg-3">
+                                                          <p>ALL RESOURCES</p>  
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/01.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Blog</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/02.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Case Studies</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/03.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Comparison</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>videos</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Chatbot Templates</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div className="col-lg-3">
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/05.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>ROI Calculator</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/06.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Whitepapers</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/07.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Generative AI Guide</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </li>
+                                        <li><a className="links-main" href="/Soon">Pricing</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            {/* <!-- nav end --> */}
+                            <div className="button-area">
+                                <a href="/Login">Login</a>
+                                <a href="/AboutOpenUp" className="rts-btn btn-primary">Get Started</a>
+                            </div>
+                            <div className="menu-btn d-xl-none d-lg-none d-md-block d-sm-block" id="menu-btn">
+                                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="14" width="20" height="2" fill="#1F1F25"></rect>
+                                    <rect y="7" width="20" height="2" fill="#1F1F25"></rect>
+                                    <rect width="20" height="2" fill="#1F1F25"></rect>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
-                  </li>
-                  <li>
-                    <a className="links-main" href="/Feature">
-                      Feature
-                    </a>
-                  </li>
-                  <li className="has-dropdown">
-                    <a className="links-main" href="#">
-                      Shop
-                    </a>
-                    <ul className="submenu">
-                      <li>
-                        <a href="/ProductDetails">Product Details</a>
-                      </li>
-                      <li>
-                        <a href="/Cart">Cart</a>
-                      </li>
-                      <li>
-                        <a href="/Checkout">Checkout</a>
-                      </li>
-                      <li>
-                        <a href="/MyAccount">My Account</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a className="links-main" href="/Contact">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+                </div>
             </div>
-            {/* nav end */}
-            <div className="button-area">
-              <a href="/Login" className="rts-btn btn-lonly mr--30">
-                Sign in
-              </a>
-              <a href="/AboutOpenUp" className="rts-btn btn-blur">
-                Get Started
-              </a>
-            </div>
-            <div
-              className="menu-btn d-xl-none d-lg-none d-md-block d-sm-block"
-              id="menu-btn"
-            >
-              <svg
-                width={20}
-                height={16}
-                viewBox="0 0 20 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect y={14} width={20} height={2} fill="#1F1F25" />
-                <rect y={7} width={20} height={2} fill="#1F1F25" />
-                <rect width={20} height={2} fill="#1F1F25" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+        </header>
   {/* rts header area end */}
-  {/* rts breadcrumb area start*/}
-  <div className="rts-bread-crumb-area bg_image">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="breadcrumb-inne">
-            <div className="title-area">
-              <h1 className="bread-title">Use Case Details</h1>
-              <div className="inner-wrapper">
-                <a href="/">Home</a>/
-                <a href="#" className="active">
-                  Use Case
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* rts breadcrumb area end */}
+
   {/* rts use case detaila area start */}
   <div className="use-case-details-area rts-section-gapTop">
     <div className="container section-seperatorBottom rts-section-gapBottom">
-      <div className="row">
+      <div className="row" style={{marginTop:"50px"}}>
         <div className="col-lg-6">
           <div className="title-left-area">
-            <span className="pre-title-bg">OpenUp Use cases</span>
             <h2 className="title">
-              Generate Blog, Article or <br />
-              Essay Ideas and Outlines <br />
-              in One Click
+            Generative AI Chatbot 
+            for Customer Service
             </h2>
             <p className="disc">
-              The easiest way to come up with catchy blog, essay, and article
-              topics <br />
-              and content structures using AI writing assistant.
+            Resolve customer queries instantly and accurately with human-like responses using a generative AI-powered chatbot trained on your data. Improve your first contact resolution rate (FCR) and reduce support costs by enabling your customers to resolve their queries, involving agents only for complex issues.
             </p>
             <a href="#" className="rts-btn btn-primary">
-              Start Writing <i className="fa-regular fa-arrow-right" />
+              Try For Free <i className="fa-regular fa-arrow-right" />
             </a>
           </div>
         </div>
@@ -322,6 +352,91 @@ const UseCasesDetails = () => {
     </div>
   </div>
   {/* rts use case detaila area end */}
+  <div className="use-case-details-area rts-section-gapTop">
+    <div className="container section-seperatorBottom rts-section-gapBottom">
+      
+      <div className="row">
+      <div className="col-lg-6 mt_md--50 mt_sm--50">
+          <div className="thumbnail-case-top">
+            <img src="assets/images/case/01.png" alt="case" />
+          </div>
+        </div>
+
+        <div className="col-lg-6">
+          <div className="title-left-area">
+            <h4 className="title">
+            Seamlessly Connect All Your Knowledge Sources to Train Generative AI Chatbot for Customer Service
+            </h4>
+            <p className="disc">
+            <li>Leverage content from your website pages to answer questions instantly, 24/7. Simply enter your website URL, and the generative AI chatbot will scrape all the pages automatically. Train the AI chatbot on selected URLs for accuracy with limited training.</li>
+            <li>Resolve queries using AI-generated answers sourced from your Zendesk Guide, Salesforce Knowledge, and Help Scout Knowledge Base. Auto-sync guarantees that the generative AI chatbot consistently provides the most current information.</li>
+            <li>Utilize content from your existing support documents like PDFs, spreadsheets (XLSX, CSV), docs, and TXT to train generative AI chatbot for customer service to provide accurate responses.</li>
+            </p>
+            <a href="#" className="rts-btn btn-primary">
+              Get Started For Free <i className="fa-regular fa-arrow-right" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="use-case-details-area rts-section-gapTop">
+    <div className="container section-seperatorBottom rts-section-gapBottom">
+      
+      <div className="row">
+
+        <div className="col-lg-6">
+          <div className="title-left-area">
+            <h4 className="title">
+             Instruct Generative AI Chatbot to Provide Accurate Responses in Your Brand Tone
+            </h4>
+            <p className="disc">
+            <li>Give custom instructions to the generative AI-powered chatbot to answer customer queries in a controlled manner. Prevent hallucinations with retrieval-augmented generation (RAG) and instruct the chatbot not to respond to questions it isn't trained on and seamlessly transfer those queries to a human agent.</li>
+            <li>Set the personality of the generative AI-powered chatbot for customer service to match your brand guidelines. Provide sources for the AI-generated answers to establish trust with your customers.</li>
+            <li>Deliver hyper-personalized support to your customers with contextual understanding. Enable generative AI-powered chatbot to comprehend the context of ongoing conversations, considering previous interactions to provide more contextual and relevant responses.</li>
+            </p>
+            <a href="#" className="rts-btn btn-primary">
+              Get Started For Free <i className="fa-regular fa-arrow-right" />
+            </a>
+          </div>
+        </div>
+        <div className="col-lg-6 mt_md--50 mt_sm--50">
+          <div className="thumbnail-case-top">
+            <img src="assets/images/case/01.png" alt="case" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="use-case-details-area rts-section-gapTop">
+    <div className="container section-seperatorBottom rts-section-gapBottom">
+      
+      <div className="row">
+      <div className="col-lg-6 mt_md--50 mt_sm--50">
+          <div className="thumbnail-case-top">
+            <img src="assets/images/case/01.png" alt="case" />
+          </div>
+        </div>
+
+        <div className="col-lg-6">
+          <div className="title-left-area">
+            <h4 className="title">
+            Seamlessly Connect All Your Knowledge Sources to Train Generative AI Chatbot for Customer Service
+            </h4>
+            <p className="disc">
+            <li>Automate support with AI-generated human-like responses to your customers on websites, mobile apps (iOS, Android, Flutter, React Native, Ionic), and messaging platforms like WhatsApp, Facebook Messenger, Instagram, Telegram, Line, and more.</li>
+            <li>De-escalate critical issues by seamlessly transferring queries from the generative AI-powered chatbot to customer support agents. Delegate repetitive queries to the generative AI chatbot, allowing your customer support agents to provide empathetic support for critical, high-value cases.</li>
+            <li>Resolve queries faster with options to choose from state-of-the-art large language models like OpenAI’s GPT-4o, Google’s Gemini 1.5, or your existing chatbot built on Google’s Dialogflow, IBM Watson, and Amazon Lex.</li>
+            </p>
+            <a href="#" className="rts-btn btn-primary">
+              Get Started For Free <i className="fa-regular fa-arrow-right" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   {/* rts case details bottom area start */}
   <div className="rts-case-details-bottom-area rts-section-gap plr_sm--15">
     <div className="container-use-case-d">
@@ -329,67 +444,49 @@ const UseCasesDetails = () => {
         <div className="col-lg-12">
           <div className="case-details-title-area-d">
             <h2 className="title">
-              The process of generating blog posts <br />
-              using AI content writing tools
+            4 Reasons to Choose Polymatric Generative AI-Powered Chatbot
             </h2>
-            <p className="disc">
-              Utilize an AI content writing tool to generate initial paragraphs
-              or sections based on the selected topic and subheadings. Provide
-              any specific instructions or guidelines to the AI tool to align
-              the content with your desired tone and style. Write an engaging
-              introduction that introduces the topic, captures the reader's
-              interest, and provides context for the rest of the blog post.
-            </p>
           </div>
           {/* ingle stepa wrapper start */}
           <div className="single-steps-wrapper">
-            <span className="water">01</span>
+            <span className="water" style={{marginTop:"-250px",marginLeft:"50px"}}>1</span>
             <h3 className="title">
-              <span>Step 01:</span> Topic Selection
+              <span>1</span> Delegate repetitive customer queries to AI and let human agents handle complex cases
             </h3>
             <p className="disc">
-              Start by identifying the topic or subject for your blog post. You
-              can choose a <br />
-              specific keyword or provide a brief description of the desired
-              content to the AI tool.
+            With Polymatric generative AI-powered chatbot for customer support, you can resolve over 80% of queries instantly and accurately with AI-generated human-like responses in your brand's tone. This allows your human agents to focus on high-value cases that need critical understanding and empathy.
             </p>
-            <div className="thumbnail-image">
-              <img src="assets/images/case/02.jpg" alt="case" />
-            </div>
           </div>
           {/* ingle stepa wrapper end */}
           {/* ingle stepa wrapper start */}
           <div className="single-steps-wrapper">
-            <span className="water odd">02</span>
+            <span className="water odd" style={{marginTop:"-250px",marginRight:"100px"}}>2</span>
             <h3 className="title">
-              <span>Step 02:</span> Input Instructions
+              <span>2</span> Personalized Experiences at Scale with Contextual Responses
             </h3>
             <p className="disc">
-              Start by identifying the topic or subject for your blog post. You
-              can choose a <br />
-              specific keyword or provide a brief description of the desired
-              content to the AI tool.
+             Provide hyper-personalized support at scale to your customers with contextual understanding, enabling the generative AI chatbot for customer service to fetch information from your ticketing and CRM systems to better understand the intent of the query and provide resolutions accordingly.
             </p>
-            <div className="thumbnail-image">
-              <img src="assets/images/case/02.jpg" alt="case" />
-            </div>
           </div>
           {/* ingle stepa wrapper end */}
           {/* ingle stepa wrapper start */}
           <div className="single-steps-wrapper mb--0">
-            <span className="water">03</span>
+            <span className="water" style={{marginTop:"-250px",marginLeft:"50px"}}>3</span>
             <h3 className="title">
-              <span>Step 03:</span> Content Generation
+              <span>3</span> Train Generative AI Chatbot on Multiple Knowledge Sources in No Time
             </h3>
             <p className="disc">
-              Start by identifying the topic or subject for your blog post. You
-              can choose a <br />
-              specific keyword or provide a brief description of the desired
-              content to the AI tool.
+            Move beyond intent-based training by connecting the generative AI-powered chatbot to multiple knowledge sources such as website URLs, documents, and help center articles. Direct the generative AI chatbot to first fetch answers from a specific knowledge source, and if the answer is not found, proceed to the next knowledge source to ensure updated and accurate information.
             </p>
-            <div className="thumbnail-image">
-              <img src="assets/images/case/02.jpg" alt="case" />
-            </div>
+          </div>
+          <div className="single-steps-wrapper mb--0">
+            <span className="water" style={{marginTop:"-250px",marginLeft:"50px"}} >4</span>
+            <h3 className="title">
+              <span>4</span> Integrate Generative AI Chatbot with Your Existing Customer Support Tech Stack
+            </h3>
+            <p className="disc">
+            Allow your customers to create tickets directly within the chat, ensuring they can be tracked and actioned promptly. Integrate Kommunicate’s generative AI chatbot for customer service with your Zendesk, Freshdesk, Zoho Desk, Pipedrive, or any other ticketing and CRM system.
+            </p>
           </div>
           {/* ingle stepa wrapper end */}
         </div>
@@ -403,13 +500,8 @@ const UseCasesDetails = () => {
         <div className="col-lg-12">
           <div className="title-conter-area">
             <h2 className="title">
-              Questions About our GenAI? <br />
-              We have Answers!
+              Frequently Asked Questions
             </h2>
-            <p className="disc">
-              please feel free to reach out to us. We are always happy to assist
-              you and provide any additional.
-            </p>
           </div>
         </div>
       </div>
@@ -427,7 +519,7 @@ const UseCasesDetails = () => {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    What is openup content writing tool?
+                    Is Polymatric using GPT3.5 or GPT4?
                   </button>
                 </h2>
                 <div
@@ -437,10 +529,7 @@ const UseCasesDetails = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    Once you know your audience, choose a topic that will
-                    resonate with them. Look for trending topics in your
-                    industry or address common questions or challenges your
-                    audience may be facing.
+                  Polymatric uses OpenAI’s GPT4 large language model to train the bot on your provided data. This ensures that the bot gives accurate and contextual information to your customers.
                   </div>
                 </div>
               </div>
@@ -454,7 +543,7 @@ const UseCasesDetails = () => {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    what languages does it supports?
+                    I have my own OpenAI API integration key.Can I use that API key to connect with the Polymatric account?
                   </button>
                 </h2>
                 <div
@@ -464,10 +553,7 @@ const UseCasesDetails = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    Once you know your audience, choose a topic that will
-                    resonate with them. Look for trending topics in your
-                    industry or address common questions or challenges your
-                    audience may be facing.
+                  If you have your own OpenAI API key, you can share it with us and we will integrate it with your Kommunicate account on the backend.
                   </div>
                 </div>
               </div>
@@ -481,7 +567,7 @@ const UseCasesDetails = () => {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    What is sEO wirting ai and how do i use it?
+                    Does the GPT4 integration work with other social media platforms like whatsapp,Messenger,Telegram?
                   </button>
                 </h2>
                 <div
@@ -491,10 +577,7 @@ const UseCasesDetails = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    Once you know your audience, choose a topic that will
-                    resonate with them. Look for trending topics in your
-                    industry or address common questions or challenges your
-                    audience may be facing.
+                  Yes. Once you have integrated GPT4 with your Kommunicate bot, you can deploy it on messaging platforms like WhatsApp, Messenger and Telegram.
                   </div>
                 </div>
               </div>
@@ -508,7 +591,7 @@ const UseCasesDetails = () => {
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    what languages does it supports?
+                    Do I need to know coding to integrate GPT -powered bot into my website or mobile app?
                   </button>
                 </h2>
                 <div
@@ -518,10 +601,7 @@ const UseCasesDetails = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    Once you know your audience, choose a topic that will
-                    resonate with them. Look for trending topics in your
-                    industry or address common questions or challenges your
-                    audience may be facing.
+                  No, you don’t need to know coding to deploy GPT4 powered bot on your website or mobile app. Kommunicate has in-built integration with OpenAI.
                   </div>
                 </div>
               </div>
@@ -535,7 +615,7 @@ const UseCasesDetails = () => {
                     aria-expanded="false"
                     aria-controls="collapseFive"
                   >
-                    Does Openup to write long articles?
+                    What is the Pricing for using polymetric OpenAl Feature?
                   </button>
                 </h2>
                 <div
@@ -545,10 +625,7 @@ const UseCasesDetails = () => {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    Once you know your audience, choose a topic that will
-                    resonate with them. Look for trending topics in your
-                    industry or address common questions or challenges your
-                    audience may be facing.
+                   Polymatric GPT4 integration pricing is based on your usage. We recommend you speak to our business team through our Book a Demo button.
                   </div>
                 </div>
               </div>
@@ -567,8 +644,7 @@ const UseCasesDetails = () => {
           <div className="cta-main-wrapper bg_image">
             <div className="left">
               <h3 className="title">
-                All set to level up <br />
-                your content game?
+              Ready to automate more than 80% of your customer support?
               </h3>
               <a href="/AboutOpenUp" className="rts-btn btn-primary">
                 Get Started Now
@@ -594,13 +670,11 @@ const UseCasesDetails = () => {
             {/* single sized  footer  */}
             <div className="footer-singl-wized left-logo">
               <div className="head">
-                <a href="#">
-                  <img src="assets/images/logo/01.svg" alt="logo" />
-                </a>
+                <h4>Polymatric</h4>
               </div>
               <div className="body">
                 <p className="dsic">
-                  Openup is an artificial intelligence trained to automate
+                  Polymatric is an artificial intelligence trained to automate
                   important tasks such writing optimized product descriptions.
                 </p>
                 <div className="social-style-two">

@@ -4,7 +4,7 @@ import IndexTwo from './Home/index-two';
 import IndexOne from "./Home/index-one";
 import IndexFour from "./Home/index-four";
 import IndexFive from "./Home/index-five";
-import UseCase from "./UseCase";
+import UseCase from "./Pages/useCase";
 import AboutOpenUp from "./Pages/AboutOpenUp";
 import Blog from "./Pages/Blog";
 import BlogDetails from "./Pages/BlogDetails";
@@ -24,6 +24,7 @@ import Cart from "./Shop/Cart";
 import Checkout from "./Shop/Checkout";
 import MyAccount from "./Shop/MyAccount";
 import ProductDetails from "./Shop/ProductDetails";
+import Soon from "./Pages/soon";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
         <Route path="/IndexFour" element={<IndexFour />}/>
         <Route path="/IndexFive" element={<IndexFive />}/>
         <Route path="/UseCase" element={<UseCase />}/>
+        <Route path="/Soon" element={<Soon/>}/>
+        
 
         <Route path="/AboutOpenUp" element={<AboutOpenUp />}/>
         <Route path="/Blog" element={<Blog />}/>

@@ -39,187 +39,96 @@ const IndexTwo = () => {
                         </div>
                         {/* <!-- header top end --> */}
                         <div className="header-main-two header--sticky">
-                            <a href="index.html">
+                            {/* <a href="index.html">
                                 <img src="assets/images/logo/03.svg" alt="logo"/>
-                            </a>
+                            </a> */}
+                            <h4>Polymatric</h4>
                             {/* <!-- nav --> */}
                             <div className="nav-area-main d-xl-block d-lg-block d-md-none d-sm-none d-none">
                                 <nav>
                                     <ul>
-                                        <li className="has-dropdown">
-                                            <a className="links-main" href="/">Home</a>
-                                            <ul className="submenu">
-                                               {/* <li><a href="/index-page-1">Content Writing 01</a></li> */}
-                                               <li><a href='/IndexOne'>Content Writing 01</a></li>
-                                                <li><a href="/">Content Writing 02</a></li>
-                                                <li><a href="/IndexThree">Content Writing 03</a></li>
-                                                <li><a href="/IndexFour">Ai Chat Bot</a></li>
-                                                <li><a href="/IndexFive">Voice Generator</a></li>
-                                                <li><a href="/">Image Generator <span>New</span></a></li>
-                                                <li><a href="/">Photo Stock <span>New</span></a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a className="links-main" href="/UseCase">Use Cases</a></li>
                                         <li className="has-dropdown mega-menu">
-                                            <a className="links-main" href="#">Pages</a>
+                                            <a className="links-main" href="#">Solutions</a>
                                             <div className="rts-mega-menu">
                                                 <div className="wrapper">
                                                     <div className="row g-0">
                                                         <div className="col-lg-3">
+                                                          <p>PRODUCTS</p>  
                                                             <ul className="mega-menu-item">
                                                                 <li>
-                                                                    <a href="/AboutOpenUp">
-                                                                        <img src="assets/images/mega-menu/01.svg" alt="icon"/>
+                                                                    <a href="/UseCasesDetails2">
+                                                                        {/* <img src="assets/images/mega-menu/01.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>About OpenUp</p>
-                                                                            <span>Get know about openup </span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/UseCase">
-                                                                        <img src="assets/images/mega-menu/02.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Use Cases</p>
-                                                                            <span>provide detailed explan</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Pricing">
-                                                                        <img src="assets/images/mega-menu/03.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Pricing</p>
-                                                                            <span>Openup provide pro price</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Login">
-                                                                        <img src="assets/images/mega-menu/04.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Login</p>
-                                                                            <span>Create content by ou</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div className="col-lg-3">
-                                                            <ul className="mega-menu-item">
-                                                                <li>
-                                                                    <a href="/Blog">
-                                                                        <img src="assets/images/mega-menu/05.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Blog</p>
-                                                                            <span>Read openup artical</span>
+                                                                            <p>ChatBot Builder</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
                                                                     <a href="/UseCasesDetails">
-                                                                        <img src="assets/images/mega-menu/06.svg" alt="icon"/>
+                                                                        {/* <img src="assets/images/mega-menu/02.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Use Cases Details</p>
-                                                                            <span>provide detailed explan</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Pricing2">
-                                                                        <img src="assets/images/mega-menu/07.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Pricing 2</p>
-                                                                            <span>Openup provide pro price</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Register">
-                                                                        <img src="assets/images/mega-menu/08.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Register</p>
-                                                                            <span>Make your account</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div className="col-lg-3">
-                                                            <ul className="mega-menu-item">
-                                                                <li>
-                                                                    <a href="/BlogDetails">
-                                                                        <img src="assets/images/mega-menu/09.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Blog Details</p>
-                                                                            <span>Read openup artical</span>
+                                                                            <p>Generative AI Chatbot</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
                                                                     <a href="/UseCases2">
-                                                                        <img src="assets/images/mega-menu/10.svg" alt="icon"/>
+                                                                        {/* <img src="assets/images/mega-menu/03.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Use Cases 2</p>
-                                                                            <span>provide detailed explan</span>
+                                                                            <p>Live Chat</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/Pricing3">
-                                                                        <img src="assets/images/mega-menu/11.svg" alt="icon"/>
+                                                                    <a href="/useCase">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Pricing 3</p>
-                                                                            <span>Openup provide pro price</span>
+                                                                            <p>Dialogflow Integration</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/Reset">
-                                                                        <img src="assets/images/mega-menu/12.svg" alt="icon"/>
+                                                                    <a href="/FAQ">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Reset</p>
-                                                                            <span>Rest your possword</span>
+                                                                            <p>FAQ ChatBot</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="col-lg-3">
+                                                            <p>INDUSTRIES</p>
                                                             <ul className="mega-menu-item">
                                                                 <li>
-                                                                    <a href="/Contact">
-                                                                        <img src="assets/images/mega-menu/13.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/05.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Contact</p>
-                                                                            <span>Contact with openup</span>
+                                                                            <p>eCommerce</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/UseCasesDetails2">
-                                                                        <img src="assets/images/mega-menu/14.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/06.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Use Cases Details 2</p>
-                                                                            <span>provide detailed explan</span>
+                                                                            <p>Healthcare</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/FAQ">
-                                                                        <img src="assets/images/mega-menu/15.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/07.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>FAQ</p>
-                                                                            <span>Do you know openup</span>
+                                                                            <p>Education</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="404.html">
-                                                                        <img src="assets/images/mega-menu/16.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/08.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Error</p>
-                                                                            <span>Back to home</span>
+                                                                            <p>Banking</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
@@ -230,17 +139,173 @@ const IndexTwo = () => {
                                             </div>
 
                                         </li>
-                                        <li><a className="links-main" href="/Feature">Feature</a></li>
-                                        <li className="has-dropdown">
-                                            <a className="links-main" href="#">Shop</a>
-                                            <ul className="submenu">
-                                                <li><a href="/ProductDetails">Product Details</a></li>
-                                                <li><a href="/Cart">Cart</a></li>
-                                                <li><a href="/Checkout">Checkout</a></li>
-                                                <li><a href="/MyAccount">My Account</a></li>
-                                            </ul>
+                                        <li className="has-dropdown mega-menu">
+                                            <a className="links-main" href="#">Integrations</a>
+                                            <div className="rts-mega-menu">
+                                                <div className="wrapper">
+                                                    <div className="row g-0">
+                                                        <div className="col-lg-3">
+                                                          <p>ALL INTEGRATIONS</p>  
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/01.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Omnichannel messaging</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/02.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>eCommerce sites</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/03.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Chatbot Builder</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Zendesk ChatBot</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Website and CMS</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div className="col-lg-3">
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/05.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Mobile Apps</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/06.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>CRMs</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/07.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Automation and Analytics</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                         </li>
-                                        <li><a className="links-main" href="/Contact">Contact</a></li>
+                                        <li className="has-dropdown mega-menu">
+                                            <a className="links-main" href="#">Resources</a>
+                                            <div className="rts-mega-menu">
+                                                <div className="wrapper">
+                                                    <div className="row g-0">
+                                                        <div className="col-lg-3">
+                                                          <p>ALL RESOURCES</p>  
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/01.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Blog</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/02.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Case Studies</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/03.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Comparison</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>videos</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Chatbot Templates</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div className="col-lg-3">
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/05.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>ROI Calculator</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/06.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Whitepapers</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/07.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Generative AI Guide</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </li>
+                                        <li><a className="links-main" href="/Soon">Pricing</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -268,13 +333,12 @@ const IndexTwo = () => {
                     <div className="row">
                         <div className="col-lg-7">
                             <div className="banner-two-inner-content pb--180 pb_md--180 pb_sm--100 pt--200 pt_md--100 pt_sm--20">
-                                <span className="pre-title">Welcome to Openup</span>
+                                <span className="pre-title">Welcome to Polymatric</span>
                                 <h1 className="title">
-                                    Best AI Writer for <br />
-                                    Creating <span>Blog Articles.</span>
+                                <span>AI-Powered</span>Customer Service Automation Platform
                                 </h1>
                                 <p className="disc">
-                                    Create SEO-optimized and plagiarism-free content for your blogs, ads, emails, and website 10X faster.
+                                Flexible, accurate, and scalable generative AI-powered chatbot for enterprises to deliver superior customer experience. Automate queries and optimize costs — all while keeping it empathetic.
                                 </p>
                                 <form action="#">
                                     <div className="input-area">
@@ -292,6 +356,8 @@ const IndexTwo = () => {
                                     </div>
                                     <p className="disc">Based on 10,000+ reviews on</p>
                                 </div>
+                                <br/>
+                                <p>Customer service automation platform trusted by enterprises across the globe</p>
                                 <div className="brand-arae">
                                     <img src="assets/images/banner/brand/01.png" alt="brand" loading="lazy" />
                                     <img src="assets/images/banner/brand/02.png" alt="brand" loading="lazy" />
@@ -406,8 +472,7 @@ const IndexTwo = () => {
                                 <div class="title-conter-area">
                                     <span class="pre-title-bg">Features</span>
                                     <h2 class="title">
-                                        What can you create <br/>
-                                        with Openup?
+                                    Everything you need to automate your customer service
                                     </h2>
                                 </div>
                             </div>
@@ -498,28 +563,28 @@ const IndexTwo = () => {
                                                             <path d="M12.7148 6.43359C18.75 6.78516 23.9648 12 24.3164 17.9766C24.375 18.7383 23.7891 19.4414 23.0273 19.5C22.9688 19.5 22.9688 19.5 22.9102 19.5C22.207 19.5 21.5625 18.9141 21.5625 18.1523C21.2109 13.5234 17.168 9.48047 12.5391 9.1875C11.7773 9.1875 11.1914 8.48438 11.25 7.72266C11.25 6.96094 11.9531 6.375 12.7148 6.43359ZM13.125 0.75C22.3828 0.75 30 8.36719 30 17.625C30 18.6797 29.1211 19.5 28.125 19.5C27.0703 19.5 26.25 18.6797 26.25 17.625C26.25 10.418 20.332 4.5 13.125 4.5C12.0703 4.5 11.25 3.67969 11.25 2.625C11.25 1.62891 12.0703 0.75 13.125 0.75ZM10.0781 14.0508C14.4727 14.9297 17.6953 19.3242 16.6406 24.1289C15.9961 27.293 13.418 29.8711 10.2539 30.5156C4.80469 31.6875 0 27.5273 0 22.3125V7.78125C0 7.01953 0.585938 6.43359 1.34766 6.43359H4.16016C4.98047 6.43359 5.56641 7.01953 5.56641 7.78125V22.2539C5.56641 23.7188 6.85547 25.0078 8.4375 25.0078C9.96094 25.0078 11.25 23.7773 11.25 22.2539C11.25 21.082 10.4297 20.0273 9.375 19.6758C8.84766 19.5 8.4375 19.0312 8.4375 18.3867V15.457C8.4375 14.5781 9.19922 13.875 10.0781 14.0508Z" fill="white" />
                                                         </svg>
 
-                                                        Blog Posts
+                                                        Build
                                                     </button>
                                                     <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
                                                         <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M27 2V20C27 20.8438 26.2969 21.5 25.5 21.5C24.6562 21.5 24 20.8438 24 20V2C24 1.20312 24.6562 0.5 25.5 0.5C26.2969 0.5 27 1.20312 27 2ZM2.95312 7.95312L22.5 2V20L16.3125 18.1719C15.8438 20.0938 14.0625 21.5 12 21.5C9.46875 21.5 7.5 19.4844 7.5 17C7.5 16.4844 7.54688 16.0156 7.73438 15.5469L2.95312 14.0938C2.95312 14.8906 2.29688 15.5 1.5 15.5C0.65625 15.5 0 14.8438 0 14V8C0 7.20312 0.65625 6.5 1.5 6.5C2.29688 6.5 2.95312 7.15625 2.95312 7.95312ZM14.1562 17.5156L9.89062 16.2031C9.79688 16.4375 9.75 16.7188 9.75 17C9.75 18.2656 10.7344 19.25 12 19.25C13.0312 19.25 13.9688 18.5 14.1562 17.5156Z" fill="#3F3EED" />
                                                         </svg>
-                                                        SEO Articles</button>
+                                                        Train</button>
                                                     <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
                                                         <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M22.5 0.5C23.2969 0.5 24 1.20312 24 2V18.5C24 20.1875 22.6406 21.5 21 21.5H3C1.3125 21.5 0 20.1875 0 18.5V5C0 4.20312 0.65625 3.5 1.5 3.5H3V17.75C3 18.1719 3.32812 18.5 3.75 18.5C4.125 18.5 4.5 18.1719 4.5 17.75V2C4.5 1.20312 5.15625 0.5 6 0.5H22.5ZM12.75 18.5C13.125 18.5 13.5 18.1719 13.5 17.75C13.5 17.375 13.125 17 12.75 17H8.25C7.82812 17 7.5 17.375 7.5 17.75C7.5 18.1719 7.82812 18.5 8.25 18.5H12.75ZM12.75 14C13.125 14 13.5 13.6719 13.5 13.25C13.5 12.875 13.125 12.5 12.75 12.5H8.25C7.82812 12.5 7.5 12.875 7.5 13.25C7.5 13.6719 7.82812 14 8.25 14H12.75ZM20.25 18.5C20.625 18.5 21 18.1719 21 17.75C21 17.375 20.625 17 20.25 17H15.75C15.3281 17 15 17.375 15 17.75C15 18.1719 15.3281 18.5 15.75 18.5H20.25ZM20.25 14C20.625 14 21 13.6719 21 13.25C21 12.875 20.625 12.5 20.25 12.5H15.75C15.3281 12.5 15 12.875 15 13.25C15 13.6719 15.3281 14 15.75 14H20.25ZM21 8.75V4.25C21 3.875 20.625 3.5 20.25 3.5H8.25C7.82812 3.5 7.5 3.875 7.5 4.25V8.75C7.5 9.17188 7.82812 9.5 8.25 9.5H20.25C20.625 9.5 21 9.17188 21 8.75Z" fill="#3F3EED" />
                                                         </svg>
-                                                        News Articles</button>
+                                                        Deploy</button>
                                                     <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
                                                         <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M29.2031 5.42188C29.6719 5.60938 30 6.03125 30 6.5C30 7.01562 29.6719 7.4375 29.2031 7.625L15.9844 12.3594C15.3281 12.5938 14.625 12.5938 13.9688 12.3594L5.0625 9.17188C4.5 9.78125 4.07812 10.5312 3.89062 11.375C4.21875 11.6094 4.5 12.0312 4.5 12.5C4.5 12.9688 4.26562 13.3906 3.9375 13.6719L5.0625 20.6562C5.15625 21.125 4.78125 21.5 4.35938 21.5H1.59375C1.17188 21.5 0.796875 21.125 0.890625 20.6562L2.01562 13.6719C1.6875 13.3906 1.5 12.9688 1.5 12.5C1.5 11.8906 1.875 11.375 2.39062 11.1406C2.57812 10.2031 3 9.35938 3.5625 8.60938L0.75 7.625C0.28125 7.4375 0 7.01562 0 6.5C0 6.03125 0.28125 5.60938 0.75 5.42188L13.9219 0.6875C14.5781 0.453125 15.2812 0.453125 15.9375 0.6875L29.2031 5.42188ZM16.4531 13.7656L23.2969 11.3281L24 18.0312C24 19.9531 19.9219 21.5 15 21.5C9.98438 21.5 6 19.9531 6 18.0312L6.65625 11.3281L13.5 13.7656C13.9688 13.9531 14.4844 14 15 14C15.4688 14 15.9844 13.9531 16.4531 13.7656Z" fill="#3F3EED" />
                                                         </svg>
-                                                        College Essays</button>
+                                                        Building from scratch</button>
                                                     <button class="nav-link" id="v-pills-settingsf-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settingsf" type="button" role="tab" aria-controls="v-pills-settingsf" aria-selected="false">
                                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M22.9688 1.92188C24 2.95312 24 4.59375 22.9688 5.625L21.5625 7.03125L16.9688 2.4375L18.375 1.03125C19.4062 0 21.0469 0 22.0781 1.03125L22.9688 1.92188ZM8.0625 11.3438L15.8906 3.51562L20.4844 8.10938L12.6562 15.9375C12.375 16.2188 12 16.4531 11.625 16.5938L7.45312 17.9531C7.03125 18.0938 6.60938 18 6.32812 17.6719C6 17.3906 5.90625 16.9219 6.04688 16.5469L7.40625 12.375C7.54688 12 7.78125 11.625 8.0625 11.3438ZM9 3C9.79688 3 10.5 3.70312 10.5 4.5C10.5 5.34375 9.79688 6 9 6H4.5C3.65625 6 3 6.70312 3 7.5V19.5C3 20.3438 3.65625 21 4.5 21H16.5C17.2969 21 18 20.3438 18 19.5V15C18 14.2031 18.6562 13.5 19.5 13.5C20.2969 13.5 21 14.2031 21 15V19.5C21 21.9844 18.9844 24 16.5 24H4.5C1.96875 24 0 21.9844 0 19.5V7.5C0 5.01562 1.96875 3 4.5 3H9Z" fill="#3F3EED" />
                                                         </svg>
-                                                        Press Releases</button>
+                                                        Integrating Bots Through Scripts</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -663,96 +728,55 @@ const IndexTwo = () => {
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="title-conter-area">
-                            <span class="pre-title-bg">Our Clients</span>
                             <h2 class="title">
-                                You're In Good Company <br/>
-                                With Openup
+                            Polymatric helps enterprises to scale their customer
+                            service with accuracy and speed
                             </h2>
                         </div>
                     </div>
                 </div>
                 <div class="row g-5 mt--5">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                         {/* <!-- single team area start --> */}
                         <div class="single-team-area">
-                            <img src="assets/images/team/brand/quote.png" alt="" loading="lazy" class="quote"/>
-                            <div class="star">
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                              99%
                             <p class="disc">
-                                I have used some AI writing tools liked Rytr, Peppertype, and Jasper but I found Writesonic to be the best for writing complete blog posts.
-                            </p>
-                            <div class="authore-area">
-                                <div class="author">
-                                    <img src="assets/images/team/01.png" alt="team"/>
-                                    <div class="info">
-                                        <p>Samuel</p>
-                                        <span>Blogger</span>
-                                    </div>
-                                </div>
-                                <img src="assets/images/team/brand/01.png" alt="images" loading="lazy"/>
-                            </div>
+                            Increase in first response time
+                            </p>    
                         </div>
                         {/* <!-- single tream area end --> */}
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                         {/* <!-- single team area start --> */}
                         <div class="single-team-area">
-                            <img src="assets/images/team/brand/quote.png" alt="images" loading="lazy" class="quote1"/>
-                            <div class="star">
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                              90%
                             <p class="disc">
-                                I have used some AI writing tools liked Rytr, Peppertype, and Jasper but I found Writesonic to be the best for writing complete blog posts.
-                            </p>
-                            <div class="authore-area">
-                                <div class="author">
-                                    <img src="assets/images/team/01.png" alt="team"/>
-                                    <div class="info">
-                                        <p>Samuel</p>
-                                        <span>Blogger</span>
-                                    </div>
-                                </div>
-                                <img src="assets/images/team/brand/01.png" alt="images" loading="lazy"/>
-                            </div>
+                            Reduction in average resolution time
+                            </p>    
                         </div>
                         {/* <!-- single tream area end --> */}
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
                         {/* <!-- single team area start --> */}
                         <div class="single-team-area">
-                            <img src="assets/images/team/brand/quote.png" alt="images" loading="lazy" class="quote"/>
-                            <div class="star">
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star-half-stroke"></i>
-                            </div>
+                              50%
                             <p class="disc">
-                                I have used some AI writing tools liked Rytr, Peppertype, and Jasper but I found Writesonic to be the best for writing complete blog posts.
-                            </p>
-                            <div class="authore-area">
-                                <div class="author">
-                                    <img src="assets/images/team/01.png" alt="team"/>
-                                    <div class="info">
-                                        <p>Samuel</p>
-                                        <span>Blogger</span>
-                                    </div>
-                                </div>
-                                <img src="assets/images/team/brand/01.png" alt="images" loading="lazy"/>
-                            </div>
+                            Decrease in cost per resolution
+                            </p>    
                         </div>
                         {/* <!-- single tream area end --> */}
                     </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                        {/* <!-- single team area start --> */}
+                        <div class="single-team-area">
+                              70%
+                            <p class="disc">
+                            Increase in customer retention rate
+                            </p>    
+                        </div>
+                        {/* <!-- single tream area end --> */}
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -1191,7 +1215,7 @@ const IndexTwo = () => {
                         <div class="title-conter-area">
                             <span class="pre-title-bg">Faq's</span>
                             <h2 class="title">
-                                Questions About our OpenUp? <br/>
+                                Questions About our Polymatric? <br/>
                                 We have Answers!
                             </h2>
                             <p class="disc">
@@ -1207,60 +1231,72 @@ const IndexTwo = () => {
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What is openup content writing tool?
+                                           Does Polymatric support generative AI features?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                        Yes, the Polymatric AI chatbot is powered by OpenAI's GPT 3.5 and GPT 4. The integration allows businesses to provide instant and accurate responses without hallucinations. You can even set the tone of your chatbot to ensure consistent communication that aligns with your brand's voice and values, enhancing the overall customer experience.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            what languages does it supports?
+                                            Where can I integrate the Polymatric Chatbot?
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                        You can deploy the Polymatric AI chatbot on your website, Android apps, iOS apps, and messaging platforms such as WhatsApp, Facebook Messenger, Viber, Telegram, and Line.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            What is sEO wirting ai and how do i use it?
+                                            Can I integrate Polymatric with ticketing CRM?
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                        Yes, you can integrate the Polymatric AI chatbot with customer service ticketing platforms such as Zendesk, Freshdesk, Salesforce, and Helpscout.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingFour">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            what languages does it supports?
+                                            Can the Polymatric AI chatbot handle queries in multiple languages?
                                         </button>
                                     </h2>
                                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                        Yes, the Polymatric AI chatbot supports more than 100 languages, including Spanish, Italian, Portuguese, Arabic, and all Indian native languages.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingFive">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            Does Openup to write long articles?
+                                            How Can I train the Polymatric AI chatbot using my own data?
                                         </button>
                                     </h2>
                                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Once you know your audience, choose a topic that will resonate with them. Look for trending topics in your industry or address common questions or challenges your audience may be facing.
+                                        You can train the Polymatric AI chatbot using multiple website URLs, help center articles, and documents such as Excel sheets and PDFs.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            Does Polymatric support live chat?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                        Yes, Polymatric supports seamless bot-to-human handoff based on predefined triggers and when queries become too complex for the AI chatbot.
                                         </div>
                                     </div>
                                 </div>
@@ -1284,13 +1320,14 @@ const IndexTwo = () => {
                                 {/* <!-- single sized  footer  --> */}
                                 <div class="footer-singl-wized left-logo">
                                     <div class="head">
-                                        <a href="#">
+                                        {/* <a href="#">
                                             <img src="assets/images/logo/02.svg" alt="logo"/>
-                                        </a>
+                                        </a> */}
+                                        <h4>Polymatric</h4>
                                     </div>
                                     <div class="body">
                                         <p class="dsic mb--25">
-                                            Openup is an artificial intelligence trained to automate important tasks such writing optimized product descriptions.
+                                        Polymatric is an artificial intelligence trained to automate important tasks such writing optimized product descriptions.
                                         </p>
                                         <div class="social-area-one">
                                             <ul>
